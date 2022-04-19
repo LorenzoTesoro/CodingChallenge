@@ -1,0 +1,74 @@
+/* background sito */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+/* Contenitore schermata principale */
+#container{
+ background: rgba(0, 0, 0, 0.4);
+ margin: 2% 15% 10% 15%;
+ padding: 5%;
+ border-radius: 1%;
+}
+/* Logo e Intestazione*/
+#logo{
+  width: 23%;
+  height: auto;
+}
+h1{
+  color: lime;
+  margin: 1%;
+  font-family: verdana, sans-serif;
+}
+/* Menù di navigazione */
+div > nav, div > header{
+  text-align:center;
+}
+div > nav{
+  background-color: lime;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/* Sezioni principali: stili e layout */
+.oggetto{
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  color: white;
+  margin-bottom: 1%;
+}
+.via, h4{
+  color: white;
+  opacity: 0.9;
+  font-family: Verdana, sans-serif;
+}
+h4{
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+span:nth-child(1)::before{
+  content: "\2192"
+}
+/* Barre di stato energia*/
+.batteria1{
+  background-color: rgb(255,200,124);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  margin-right: 65%;
+}
+.batteria2{
+  background-color: rgb(50,205,50);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  margin-right: 40%;
+}
+.batteria3{
+  background-color: rgb(230,103,113);
+  padding-top: 2%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  margin-right: 85%;
+}
